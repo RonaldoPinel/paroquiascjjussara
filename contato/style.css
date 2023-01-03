@@ -1,0 +1,119 @@
+
+body{
+    background-color: #7fff00;
+}
+
+#tabela_contato{
+    background-color: #7fff00;
+    width: 350px;
+    margin: 60px auto;
+}
+#pcontato{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 5rem;
+    padding: 2px 0px 0px 10px;
+    border-bottom: 2px solid black;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.linhatb{
+    padding-top: 3px;
+}
+.tbladoesquerdo{
+    background-color: chocolate;
+    line-height: 40px;
+    padding: 0px 5px 0 4px;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tbladodireito{
+    background-color: rgb(72, 177, 177);
+    line-height: 40px;
+    padding: 0 18px 0 5px;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: rgb(10, 6, 245);
+    color: white;
+    width: 135px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#botao{
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 450px){
+    
+body{
+    background-color: #7fff00;
+}
+
+#tabela_contato{
+    background-color: #7fff00;
+    width: 500px;
+    margin: 100px auto;
+}
+#pcontato{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 5rem;
+    padding: 2px 0px 0px 10px;
+    border-bottom: 2px solid black;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.linhatb{
+    padding-top: 3px;
+}
+.tbladoesquerdo{
+    background-color: chocolate;
+    line-height: 70px;
+    padding: 0 18px 0 10px;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tbladodireito{
+    background-color: rgb(72, 177, 177);
+    line-height: 70px;
+    padding: 0 18px 0 10px;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: rgb(10, 6, 245);
+    color: white;
+    width: 135px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#botao{
+    text-align: center;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+}

@@ -1,0 +1,186 @@
+/* Página Clero*/
+
+body{
+    background-color: rgb(186, 186, 252);
+}
+.linhaclero{
+    
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.willian{
+    
+    line-height: 1.5rem;
+    width: 320px;
+    border-bottom: 2px solid black;
+
+}
+.willian img{
+    padding: 10px 65px;
+}
+.willian p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+.willian p span{
+    font-size: 2.6rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.reinaldo{
+    
+    line-height: 1.5rem;
+    width: 320px;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+}
+.reinaldo img{
+    padding: 10px 65px;
+}
+.reinaldo p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.reinaldo p span{
+    font-size: 2.6rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.valdeci{
+    
+    line-height: 1.5rem;
+    width: 320px;
+    
+    margin-top: 15px;
+}
+.valdeci img{
+    padding: 10px 65px;
+}
+.valdeci p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+.valdeci p span{
+    font-size: 2.6rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding: 0 3px;
+}
+.linhaclero .dados{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 1.5rem;
+}
+button{
+    background-color: rgb(10, 6, 245);
+    color: white;
+    width: 135px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#botao{
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 450px){
+    /* Página Clero*/
+
+body{
+    background-color: rgb(186, 186, 252);
+}
+.linhaclero{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.willian{
+    
+    line-height: 1.5rem;
+    width: 320px;
+    border-bottom: none;
+
+}
+.willian img{
+    padding: 10px 65px;
+}
+.willian p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+.willian p span{
+    font-size: 2.6rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.reinaldo{
+    
+    line-height: 1.5rem;
+    width: 320px;
+    border-bottom: none;
+}
+.reinaldo img{
+    padding: 10px 65px;
+}
+.reinaldo p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.reinaldo p span{
+    font-size: 2.6rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.valdeci{
+    
+    line-height: 1.5rem;
+    width: 320px;
+    border-bottom: none;
+}
+.valdeci img{
+    padding: 10px 65px;
+}
+.valdeci p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+.valdeci p span{
+    font-size: 2.6rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding: 0 3px;
+}
+.linhaclero .dados{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 1.5rem;
+}
+button{
+    background-color: rgb(10, 6, 245);
+    color: white;
+    width: 135px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#botao{
+    text-align: center;
+    width: 100%;
+}
+}
