@@ -11,7 +11,7 @@ body{
         /*.auto_relevo{position: relative; top: 0;}
         .auto_relevo:hover{top:-4px; box-shadow: 4px 4px 4px 4px rgb(51, 51, 49); transition: all .2s ease-in-out;}*/
     
-    @media only screen and (max-width: 449px){
+    @media only screen and (max-width: 549px){
 
 
 
@@ -116,6 +116,7 @@ text-align: center;
     background-color: black;
 }
 
+
 main .corpo{
     width: 320px;
     margin: 20px auto 0px;
@@ -160,7 +161,7 @@ footer .direitos{
 }
 }
 
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 550px){
 
     body, div, img, ul, p, h1, h2, h3, span, header, main, footer{
         margin: 0;
@@ -172,7 +173,7 @@ footer .direitos{
     }
     header .cabeçalho{
         width: 90%;
-        height: 220px;
+        height: 260px;
         display: flex;
         background-color: rgb(63, 241, 218);
         margin: 10px auto 0;
@@ -180,35 +181,53 @@ footer .direitos{
         align-content: center;
         
     }
+   .cabeçalho .span1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
+   }
     .imagem_esquerda{
-        width: 25%;
-        height: 185px;
-        margin-left: 30px;
-        margin-top: 10px;
-        padding: 5px;
+        width: 100%;
+        
+        
     }
+    .cabeçalho .span2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    
     header .dados{
         text-align: center;
         font-size: 1.4rem;
-        width: 50%;
         padding: 5px;
         color: black;
         font-family:'Courier New', Courier, monospace;
         line-height: 2rem;
-        height: 95%;
-       padding-top: 50px;
-        
-      
-        
+        height:90%;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
     }
-    .imagem_direita{
+
+    .cabeçalho .span3{
         width: 25%;
-        height: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .span3 .imagem_direita{
+        width: 80%;
+    
         border-radius: 50%;
-        margin: 0 auto 0;
-        padding: 5px;
         
+           
     }
     ul{
         /* background-color: coral; */
@@ -330,5 +349,17 @@ footer .direitos{
     }
     .copy{
         font-size: 0.8rem;
+    }
+
+    .whats{
+        height: 50px;
+        /* background-color: brown; */
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index:9999
+    }
+    .whats img{
+        width: 180px;
     }
 }
